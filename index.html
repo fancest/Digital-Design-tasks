@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Sanctuary of HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>HTML</h1>
+    </header>
+
+    <div class="main">
+        <div class="left-corner">
+            <nav class="navigation-board">
+                <ol class="navigation-menu">
+                    <li><a data-scrollto=".page__section_1" class="navigation-text">General info</a></li>
+                    <li><a data-scrollto=".page__section_2" class="navigation-text">Pairing</a></li>
+                    <li><a data-scrollto=".page__section_3" class="navigation-text">An actual start</a></li>
+                    <li><a data-scrollto=".page__section_4" class="navigation-text">Grammar part</a></li>
+                    <li><a data-scrollto=".page__section_5" class="navigation-text">Accessibility</a></li>
+                </ol>
+            </nav>
+        </div>
+
+        <section class="container">
+
+            <article class="content-item page__section_1">
+                <h2 class="grid-header">The General Information</h2>
+                <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning
+                    and structure of web content. Other technologies besides HTML are generally used to describe a web
+                    page's.<br><br> (These are: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                        target="_blank">CSS</a> and <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript)</a><br><br>
+                        "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+                    </p>
+                <img class="grid-pic" src="" alt="" data="public/html1.png">
+            </article>
+
+            <article class="content-item page__section_2">
+                <h2 class="grid-header">The Great Pair</h2>
+                <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document
+                    written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how
+                    elements should be rendered on screen, on paper, in speech, or on other media.<br><br>
+
+                    CSS is among the core languages of the open web and is standardized across Web browsers according to
+                    <a href="https://www.w3.org/" target="_blank">W3C specifications</a>. Previously, development of
+                    various parts of CSS specification was done synchronously, which allowed versioning of the latest
+                    recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an
+                    official version.<br><br>
+                    But you can use global attribute <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style"
+                        target="_blank">"style"</a> anytime you want to sketch your tags right inside 'em, so you won't
+                    need to create new document .css and connect it with .html doc in head tag.
+                </p>
+                <img src="" alt="" data="public/html css.png">
+            </article>
+
+            <article class="content-item page__section_3">
+                <h2 class="grid-header">Where The Coding Begins</h2>
+                <p>The thing is we need to code every mechanic and feature on our website page. We can't actually do
+                    that by using only HTML and CSS simply since these are not programming languages.<br><br>
+                    There comes JavaScript. With JavaScript we can actually "play" with our HTML tags and properties
+                    using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML"
+                        target="_blank">this bad boy</a><br><br>
+                    Sometimes it's actually usefull! Without this property it just overweights your HTML "code".
+                </p>
+                <img src="" alt="" data="public/js.png">
+            </article>
+
+            <article class="content-item page__section_4">
+                <h2 class="grid-header">HTML Grammar</h2>
+                <p>In programming, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+                        target="_blank">Semantics</a> refers to the meaning of a piece of code — for example "what
+                    effect does running that line of JavaScript have?", or "what purpose or role does that HTML element
+                    have" (rather than "what does it look like?".)<br><br>
+                    This will render it to look like a top level heading, but it has no semantic value, so it will not
+                    get any extra benefits as described above. It is therefore a good idea to use the right HTML element
+                    for the right job.<br><br>
+
+                    HTML should be coded to represent the data that will be populated and not based on its default
+                    presentation styling. Presentation (how it should look), is the sole responsibility of CSS.<br><br>
+
+                    FeelsBadMan using "br"x2 instead of doing "display: flex" for this arcticle.<br><br>
+
+                    Shame on me... <br><br>
+
+                    At least I tried, tho.
+                </p>
+                <img src="" alt="" data="public/semantics.jpg">
+            </article>
+
+            <article class="content-item page__section_5">
+                <h2 class="grid-header"><a class="headerLocation headerLocation1" id="headerLocation5"></a>Accessibility
+                </h2>
+                <p>
+                    Learning some HTML, CSS, and JavaScript is useful if you want to become a web developer. Beyond
+                    mechanical use, it's important to learn how to use these technologies responsibly so that all
+                    readers might use your creations on the web. To help you achieve this, this module will cover
+                    general best practices (which are demonstrated throughout the HTML, CSS, and JavaScript topics),
+                    cross browser testing, and some tips on enforcing accessibility from the start. <br><br>
+                    By default, HTML is accessible, if used correctly. Web accessibility involves ensuring that content
+                    remains accessible, regardless of who and how the web is accessed.<br><br>
+                    The Firefox Accessibility Inspector is a very useful tool for checking out accessibility issues on
+                    web pages.<br><br>
+                    We need the thing above to help outer "trackers" to read our page properly.<br><br>
+                    Also accessibility collaborates with semantics.
+                </p>
+                <img src="" alt="" data="public/accessibillity.png">
+            </article>
+
+        </section>
+
+        <div class="right-corner">
+            <aside class="aside">
+                <div class="button-section">
+                    <button class="anchor" id="anchor"><span class="anchor-text"><svg width="30px" height="30px"
+                                viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>Start of the page</title>
+                                <g id="Iconly/Two-tone/Arrow---Up-2" stroke="none" stroke-width="1" fill="none"
+                                    fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g id="Arrow---Up-2"
+                                        transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) translate(5.000000, 8.500000)"
+                                        stroke="#000000" stroke-width="1.5">
+                                        <polyline id="Stroke-1" points="14 0 7 7 0 0"></polyline>
+                                    </g>
+                                </g>
+                            </svg></span></button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div>
+            <p class="feedBack">© 2022 - The Endless March (hopefully) || Daniil Tishchenko || AMA via
+                fancestheart@gmail.com || <a href="https://github.com/fancest" target="_blank">Github</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
